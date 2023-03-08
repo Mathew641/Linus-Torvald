@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tribute to Linus Torvalds</title>
+
+    <!-- for smooth scrolling we will assign value "smooth" to scroll-behaviour attribute -->
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+
+        <h1>Linus Torvalds</h1>
+
+        <h4 style="margin-bottom: 0%;">The Creator of linux</h4>
+       <br>
+       <a href="#res">jump to Resources</a>
+       <a href="#achieve">jump to achievements</a>
+       <!-- We can use <figure> tag and along with it use <figcaption> tag inside <figure> tag to insert image with tittle(image caption) -->
+       
+        <figure>
+             <img src="./Lc3_2018_(263682303)_(cropped).jpeg" 
+              width="200px"
+              
+              alt="image of Linus Torvald">     
+            
+            <figcaption>A photograph of Linus Torvalds</figcaption>
+
+       </figure>
+        <!-- <img src="./Lc3_2018_(263682303)_(cropped).jpeg" 
+        style="margin-left: 10%; margin-top: 1%; margin-left: 3%;"
+        width="200"
+        alt="Linus Torvalds image">
+        <p style="margin-left: 3%; margin-top: 0%; font-size:medium;">A photograph of Linus Torvalds</p> -->
+       
+        <h2>Biography</h2>
+
+        <p style="font-size: small;">
+            Linus Torvalds is a Finnish-American software engineer who is the creator and principal developer of the Linus kernel, which is the kernael for a number of operating systems. He also created the version control system Git. Torvalds was born on
+            December 28, 1969 in Helsinki, Finland. He studied computer science at the university of Helsinki, and he developed the Linus kernel as a student project in 1991. Since then, the linux kernel has become one of the most widely used kernel in 
+            the world, powering everything from smartphones to supercomputers.
+        </p>
+        
+        <h2 id="achieve">Achievements</h2>
+
+        <ul style="font-size: small;">
+            <!-- we can use either of <strong> or <b> tag for bolding the year -->
+            <li><b>1991</b>- Created the Linux kernel and version control system Git.</li>
+            <li><strong>2004</strong>- Named one of the "100 Most influencer people in the world" by Time magazine in 2004.</li>
+            <li><b>2010</b>- Received an honorary doctorate from the university of Helsinki in 2010.</li>
+            <li><strong>2010</strong>- Received the 2010 Milennium Technology Prize and 2012 Free Software Foundation's Award for the Advancement of Free Software.</li>
+            <li><b>2013</b>- Inducted into the Internet Hall of Fame of the Computer History Museum in 2014. </li>
+            <li><b>2014</b>- Inducted into the Hall of Fame of the Computer History Museum in 2014.</li>
+            <li><strong>2015</strong>- Received 2015 IEEE Computer Society Computer Pioneer Award.</li>
+            <li><b>2019</b>- Received the 2019 ACM SIGOPS Hall of Fame Award.</li>
+            <li><b>2021</b>- Awarded the Takeda Foundation's 2021 Takeda Award for Social Contribution, which recognizes individuals who have made significant contribution to society through technology. </li>
+            <li><strong>2021</strong>- Recieved the 2021 IEEE Masura Ibuka Consumer Electronics Award, Which recognizes the individuals who have made significant contribution to the field of consumer electronics.</li>
+        </ul>
+
+<!-- We can use <blockquote for writing any quote and that comes automatically in ""> -->
+        <!-- <p style="margin-left: 2%;">"One of the most influntial people in the world."</p> -->
+        <blockquote>
+            <p>"One of the most influential people in the world".</p>
+
+            <cite>
+                -- Time Magazine 
+                <a href="https://www.internethalloffame.org/">The Famous People</a>
+            </cite> 
+        </blockquote>
+<!-- for adding the source of given quotation in italic font style we can use <cite> tag wihtin the <blockquote> tag -->
+<!-- We can also add cite inside opening blockquote tag
+            <blockquote cite="https://www.internethalloffame.org/">
+    for adding the reference from where you take the quote.
+                    -->
+
+        <!-- <i style="margin-left: 2%;">-- Time Magazine <u style="color: dodgerblue;">The Famous People</u></i> -->
+
+<!-- for Bookmarking the resources, first I need to assign an id to h2 opening tag of Resources part -->
+        <h2 id="res">Resources</h2>
+
+        <p>Learn more about Linus Torvalds and his work:</p>
+
+        <ul>
+            <li>
+                 <a href="https://en.wikipedia.org/wiki/Linus_Torvalds"> Wikipedia page on Linus Torvalds</a>
+            </li>
+            <li>
+                <a href="https://linuxtorvalds.com/">Linus Torvald's personal website</a>
+            </li>
+            <li>
+                <a href="https://www.kernel.org/">The Linus Kernel Archives</a>
+            </li>
+        </ul>
+
+
+
+
+        <!--steps for creating bookmark:
+            >1. first assign an id in the opening tag of that part for which you want to create the bookmark.
+            >2. Then use anchor tag at the start or whereveer you want the hyperlink appear in html body and give that id with # to href attribute.  
+         -->
+
+         <!-- for accessing id ---- we need to use # -->
+         <!-- for accessing class ---- we need to use .(dot) -->
+    </div>
+</body>
+</html>
